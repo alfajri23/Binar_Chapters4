@@ -10,7 +10,7 @@ export default class Home extends Component {
       <div>
           <Navbar></Navbar>
           <Hero></Hero>
-          <Panel show="true"></Panel>
+          <Panel show="true" cari="false"></Panel>
           <Footer></Footer>
       </div>
     )

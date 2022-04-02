@@ -15,9 +15,11 @@ const RouterPages = () => {
             <Routes>
                 <Route path="/" element={<Home/>}></Route>
             </Routes>
+
             <Routes>
                 <Route path="/cari" element={<Result/>}></Route>
             </Routes>
+            
             <Routes>
                 <Route path="cari/detail/:id" element={<Detail/>}></Route>
             </Routes>

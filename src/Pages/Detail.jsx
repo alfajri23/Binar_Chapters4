@@ -95,15 +95,15 @@ const Detail = () => {
                                 <img src={item.image} alt="" className="w-100"/>
                             </div>
                             <h5 className="fw-bold">{item.name}/{item.category}</h5>
-                            <div className="mb-4">
+                            <div className="mb-4 text-muted">
                                 <small><BsPeople/> 4 orang</small>
                                 <small className="mx-2"><FiSettings/> Manual</small>
                                 <small> <FaRegCalendar/> Tahun 2020</small>
                             </div>
                             
                             <div className="row px-2 justify-content-between">
-                                <div className="col-8">Total</div>
-                                <div className="col-4">Rp. {item.price}</div>
+                                <div className="col-7">Total</div>
+                                <div className="col-5 fw-bold">Rp. {item.price}</div>
                             </div>
 
                             <div className="container mt-2 px-0">
